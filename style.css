@@ -24,7 +24,6 @@ gap: 20px;
     border-radius: 50%;
     width: 450px;
     height: 500px;
-    background-color: orange;
 }
 #container{
     display: flex;
@@ -57,9 +56,49 @@ body{
     width: 450px;
 }
 
+@media screen and (min-width:280px) and (max-width:460px) {
+    body{
+        margin-left: 0px;
+        background-color: aliceblue;
+}
+#navbar{
+    display: grid;
+    font-size: small;
+    gap: 6%;
+    }
+    #nav3{
+        display: grid;
+    gap: 2%;
+    }
+    #nav2{
+        gap: 2%;
+        display: grid;
+    }
+    #container{
+        display: grid;
+        gap: 1%;
+        font-size: small;
+    }
+    #Followpages{
+        display: flex;
+        gap: 0%;
+        font-size: small;
+    }
+    #studygirl{
+        border-radius: 50%;
+        width: 250px;
+        height: 300px;
+    }
+    #icons2{
+        width: 120px;
+        height: 100px;
+        display: grid;
+        gap: 10px;
+    
+    }
 
 
-
+}
 
 
 
