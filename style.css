@@ -2,14 +2,20 @@
 display: flex;
 font-size: x-large;
 gap: 350px;
+text-decoration: none;
 }
 #nav2{
     display: flex;
     gap: 45px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 #nav3{
     display: flex;
 gap: 20px;
+text-decoration: none;
 }
 #icons{
     width: 50px;
@@ -22,8 +28,8 @@ gap: 20px;
 }
 #studygirl{
     border-radius: 50%;
-    width: 450px;
-    height: 500px;
+    width: 650px;
+    height: 600px;
 }
 #container{
     display: flex;
@@ -35,7 +41,7 @@ gap: 20px;
     border-radius: 40px;
     width: 120px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: px;
 }
 #icons2{
     width: 120px;
@@ -55,50 +61,73 @@ body{
 #favourite{
     width: 450px;
 }
+#bookpile{
+    width: 40px;
+    height: 30px;
+    margin-top: 0px;
+}
+
+#Imla{
+display: flex;
+}
+h1{
+    font-size: 76px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 @media screen and (min-width:280px) and (max-width:460px) {
     body{
         margin-left: 0px;
         background-color: aliceblue;
-}
-#navbar{
+    }
+    #navbar{
     display: grid;
     font-size: small;
-    gap: 6%;
+    gap: 8%;
     }
     #nav3{
         display: grid;
-    gap: 2%;
+        gap: 5%;
     }
     #nav2{
-        gap: 2%;
+        gap: 5%;
         display: grid;
     }
     #container{
         display: grid;
-        gap: 1%;
-        font-size: small;
-    }
-    #Followpages{
-        display: flex;
         gap: 0%;
         font-size: small;
     }
+    #Followpages{
+      flex-wrap: wrap; 
+       gap: 0%;
+       font-size: small;
+    }
     #studygirl{
         border-radius: 50%;
-        width: 250px;
-        height: 300px;
+        width: 120px;
+        height: 150px;
     }
     #icons2{
         width: 120px;
         height: 100px;
         display: grid;
-        gap: 10px;
+        gap: 0px;
     
     }
-
-
-}
+    #text{
+        font-size: smaller;
+    }
+    #container2{
+        text-align: left;
+        font-size: x-small;
+        display: grid;
+    }
+    #favourite{
+        width: 120px;
+    }
+    }
 
 
 
